@@ -1,5 +1,5 @@
 <main>
-    <h2>standings</h2>
+    <h2>stats</h2>
 </main>
 
 <style>

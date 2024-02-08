@@ -64,8 +64,8 @@
 </script>
 
 <main class="container">
+    <h2>fixtures</h2>
     <section out:fade class="logo">
-        <h2 >another one</h2>
         <span class="gwIndicator">Gameweek: {displayedWeek}</span>
     </section>
 
@@ -107,6 +107,7 @@
 
 <style>
 main {
+    margin-top: 3em;
     padding: .5em;
 }
 section.logo {
