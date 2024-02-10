@@ -5,7 +5,7 @@ export async function load({fetch}) {
     const today = new Date().toISOString().split('T')[0];
     console.log('THIS IS TODAY ON DB:');
     console.log(today)
-    const url = `https://api-football-v1.p.rapidapi.com/v3/fixtures?date=${today}&league=39&season=2023`;
+    const url = `https://api-football-v1.p.rapidapi.com/v3/fixtures?date=${today}&league=39&season=2023&timezone=Europe%2FKyiv`;
     const options = {
         method: 'GET',
         headers: {
