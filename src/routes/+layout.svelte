@@ -33,6 +33,7 @@
 </main>
 <style>
     header {
+        padding-left: 1em;
         position: fixed;
         top: 0;
         left: 0;
@@ -51,6 +52,7 @@
         grid-auto-columns: max-content;
     }
     header > h2 {
+        justify-self: flex-start;
         font-size: small;
     }
     header ul {
